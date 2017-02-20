@@ -8,7 +8,7 @@ var fs = require('file-system');
 var readJSON = require('read-json')
 
 program
-    .version('0.0.1')
+    .version('0.0.2')
     .command('generate <name> [dependencies...]')
     .alias('g')
     .description('\nGenerate an angular controller, you can pass all the dependencies you want to add to your controller \n'+chalk.bold.yellow('(Remember to add a \\ before characters as \$)'))
